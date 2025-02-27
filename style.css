@@ -1,0 +1,290 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    background-color: #fff2f8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #3b1e66;
+}
+
+h1, h2, h3 {
+    color: #8f3569;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+header {
+    text-align: center;
+    background-color: #fff2f8;
+}
+
+#menu:hover {
+    color: #fac4dd;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+nav {
+    background-color: #8f3569;
+    padding: 2%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#a {
+    background-color: #ffffff;
+    padding: 2%;
+    display: flex;
+    gap: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#image1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    border: #c6619c inset 3px;
+}
+
+#linki {
+    width: 300px;
+    height: 300px;
+}
+
+#b {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff2f8;
+    padding: 2%;
+}
+
+#b2 {
+    display: flex;
+    gap: 50px;
+}
+
+#image2,
+#image3 {
+    width: 400px;
+    height: 300px;
+    border-radius: 10%;
+    border: #c6619c inset 3px;
+}
+
+#bd1,
+#bd2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    padding: 2%;
+    border-radius: 10%;
+    border: #c6619c inset 3px;
+}
+
+footer {
+    background-color: #8f3569;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+h4 {
+    color: #ffffff;
+}
+
+#logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#logo1 {
+    width: 35px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#f {
+    display: flex;
+    gap: 30px;
+}
+
+#c {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 2%;
+}
+
+#c2 {
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+#cd {
+    display: flex;
+    gap: 50px;
+}
+
+#bd1:hover, #bd2:hover {
+    transform: scale(1.02);
+    transition: 1s;
+}
+
+#bu {
+    width: 80px;
+    height: 80px;
+}
+
+#c2:hover {
+    transform: scale(1.02);
+    transition: 1s;
+}
+
+#logo:hover {
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 1200px) {
+    #b2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #bd1, #bd2 {
+        width: 90%;
+        height: auto;
+    }
+
+    #c2 {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        padding: 1%;
+    }
+
+    a {
+        font-size: 18px;
+        margin: 5px 0;
+    }
+
+    #a {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #image1, #image2, #image3 {
+        width: 100%;
+        height: auto;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    #c2 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    #cd {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    #logo {
+        width: 25px;
+        height: 25px;
+    }
+
+    #logo1 {
+        width: 30px;
+        height: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 16px; /* Ajusta o tamanho da fonte para dispositivos menores */
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    #image1, #image2, #image3 {
+        width: 100%;
+        height: auto;
+    }
+
+    #bd1, #bd2 {
+        width: 100%;
+        height: auto;
+    }
+
+    #f {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #bu {
+        width: 60px;
+        height: 60px;
+    }
+}
